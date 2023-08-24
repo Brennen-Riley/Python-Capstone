@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Golf Courses{% endblock %}
+
+{% block body %}
+    <div class="golf-courses">
+        <h1>Golf Courses</h1>
+
+        <ul>
+            {% for course in courses %}
+            <li>
+                <a href="/courses/{{ course.course_id }}">
+                {{ course.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

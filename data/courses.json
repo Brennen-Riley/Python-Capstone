@@ -1,0 +1,164 @@
+[
+    {
+      "name": "Pebble Beach Golf Links",
+      "par": 72,
+      "length": 6828,
+      "difficulty": 8
+    },
+    {
+      "name": "Augusta National Golf Club",
+      "par": 72,
+      "length": 7435,
+      "difficulty": 9
+    },
+    {
+      "name": "TPC Sawgrass",
+      "par": 72,
+      "length": 7189,
+      "difficulty": 7
+    },
+    {
+      "name": "Bethpage Black",
+      "par": 71,
+      "length": 7468,
+      "difficulty": 9
+    },
+    {
+      "name": "Pinehurst No. 2",
+      "par": 72,
+      "length": 7468,
+      "difficulty": 8
+    },
+    {
+      "name": "Whistling Straits",
+      "par": 72,
+      "length": 7796,
+      "difficulty": 9
+    },
+    {
+      "name": "Kiawah Island Golf Resort",
+      "par": 72,
+      "length": 7356,
+      "difficulty": 7
+    },
+    {
+      "name": "Torrey Pines Golf Course",
+      "par": 72,
+      "length": 7656,
+      "difficulty": 9
+    },
+    {
+      "name": "Bandon Dunes Golf Resort",
+      "par": 72,
+      "length": 6759,
+      "difficulty": 7
+    },
+    {
+      "name": "Oakmont Country Club",
+      "par": 71,
+      "length": 7255,
+      "difficulty": 9
+    },
+    {
+      "name": "Merion Golf Club",
+      "par": 70,
+      "length": 6744,
+      "difficulty": 8
+    },
+    {
+      "name": "Shinnecock Hills Golf Club",
+      "par": 70,
+      "length": 7445,
+      "difficulty": 9
+    },
+    {
+      "name": "Turtle Bay Resort",
+      "par": 72,
+      "length": 6824,
+      "difficulty": 7
+    },
+    {
+      "name": "The Olympic Club",
+      "par": 71,
+      "length": 7136,
+      "difficulty": 9
+    },
+    {
+      "name": "Congressional Country Club",
+      "par": 71,
+      "length": 7477,
+      "difficulty": 8
+    },
+    {
+      "name": "Pine Valley Golf Club",
+      "par": 70,
+      "length": 6636,
+      "difficulty": 9
+    },
+    {
+      "name": "Oak Hill Country Club",
+      "par": 70,
+      "length": 7184,
+      "difficulty": 7
+    },
+    {
+      "name": "Bethesda Country Club",
+      "par": 71,
+      "length": 7044,
+      "difficulty": 8
+    },
+    {
+      "name": "Kiawah Island - Ocean Course",
+      "par": 72,
+      "length": 7356,
+      "difficulty": 7
+    },
+    {
+      "name": "Baltusrol Golf Club",
+      "par": 72,
+      "length": 7274,
+      "difficulty": 9
+    },
+    {
+      "name": "Oakland Hills Country Club",
+      "par": 70,
+      "length": 7319,
+      "difficulty": 8
+    },
+    {
+      "name": "Valhalla Golf Club",
+      "par": 72,
+      "length": 7477,
+      "difficulty": 9
+    },
+    {
+      "name": "Medinah Country Club",
+      "par": 72,
+      "length": 7614,
+      "difficulty": 7
+    },
+    {
+      "name": "Hazeltine National Golf Club",
+      "par": 72,
+      "length": 7607,
+      "difficulty": 9
+    },
+    {
+      "name": "Whistling Straits - Straits Course",
+      "par": 72,
+      "length": 7510,
+      "difficulty": 8
+    },
+    {
+      "name": "Winged Foot Golf Club",
+      "par": 72,
+      "length": 7387,
+      "difficulty": 9
+    },
+    {
+      "name": "Chambers Bay Golf Course",
+      "par": 72,
+      "length": 7697,
+      "difficulty": 7
+    }
+  ]

@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}Golf Tracker Home{% endblock %}
+
+{% block body %}
+    <div class="header">
+        <h1>Welcome to my Golf Tracker</h1>
+    </div>
+
+    <div class="nav">
+        <h2>Navigation</h2>
+        <ul class="list">
+            <li><a href="/courses">View all Golf Courses</a></li>
+            <li><a href="/users">View all Users</a></li>
+            <li><a href="/scores">View all Scores</a></li>
+        </ul>
+    </div>
+
+    <div class="account-login">
+        <div class="account">
+            <h2>Create an Account</h2>
+            <form action="/users" method="POST" class="account-form">
+                <p>
+                    First Name <input type="text" name="first_name">
+                </p>
+                <p>
+                    Last Name <input type="text" name="last_name">
+                </p>
+                <p>
+                    Email <input type="text" name="email">
+                </p>
+
+                <p>
+                    Password <input type="password" name="password">
+                </p>
+                <p>
+                    Handicap <input type="text" name="handicap">
+                </p>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </form>
+        </div>
+
+        <div>
+            <img class="golf-img" src="https://gsites.brightspotcdn.com/dims4/default/b43e03c/2147483647/strip/true/crop/7360x2786+0+1063/resize/1440x545!/brightness/-4x10/quality/90/?url=http%3A%2F%2Fgolf-brightspot.s3.amazonaws.com%2Fgsites%2F54%2F66%2Ffb665df84570920cb3306f390108%2Fgolfnat-15-back-high.jpg" alt="Golf Course">
+        </div>
+
+        <div class="login">
+            <h2>Log In</h2>
+            <form action="/login" method="POST" class="login-form">
+                <p>
+                    Email <input type="text" name="email">
+                </p>
+
+                <p>
+                    Password <input type="password" name="password">
+                </p>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <div class="score">
+        <h2>Submit Score</h2>
+        <form action="/scores" method="POST">
+            <p>
+                Golf Course <input type="text" name="course">
+            </p>
+
+            <p>
+                score <input type="number" name="shot">
+            </p>
+
+            <p>
+                <input type="submit">
+            </p>
+        </form>
+    </div>
+
+{% endblock %}

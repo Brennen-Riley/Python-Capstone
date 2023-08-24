@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ course.name }} - Details{% endblock %}
+
+{% block body %}
+<div class="course-details">
+  <h1>{{ course.name }}</h1>
+
+  <p>
+    Par: {{ course.par }}
+  </p>
+
+  <p>
+    Length:  {{ course.length }}
+  </p>
+
+  <p> 
+    Difficulty:  {{ course.difficulty }}
+  </p>
+</div>
+
+{% endblock %}
